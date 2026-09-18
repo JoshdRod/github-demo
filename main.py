@@ -7,7 +7,7 @@ def withdraw(balance):
     pass # TODO: This function should ask the user how much they want to withdraw, and subtract that from their balance. Don't worry about invalid inputs - assume the atm user is a smart guy. Return the balance.
 
 def display(balance):
-    pass # TODO
+    print(balance)
 
 balance = 200
 while True:
