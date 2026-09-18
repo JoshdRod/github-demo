@@ -9,7 +9,7 @@ def withdraw(balance):
 def display(balance):
     pass # TODO
 
-balance = 200
+balance = 67
 while True:
     print("Welcome to the Python ATM! What would you like to do?")
     print("1. View Balance")
