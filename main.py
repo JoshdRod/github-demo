@@ -4,7 +4,7 @@ def deposit(balance):
     return balance
 
 def withdraw(balance):
-    amount = int(input("How much would you like to withdraw"))
+    amount = int(input("How much would you like to withdraw?"))
     return balance - amount
     
 def display(balance):
