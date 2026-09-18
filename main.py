@@ -4,10 +4,12 @@ def deposit(balance):
     return balance
 
 def withdraw(balance):
+    amount = int(input("How much would you like to withdraw"))
+    return balance - amount
     pass # TODO: This function should ask the user how much they want to withdraw, and subtract that from their balance. Don't worry about invalid inputs - assume the atm user is a smart guy. Return the balance.
 
 def display(balance):
-    pass # TODO
+    print(balance)
 
 balance = 67
 while True:
