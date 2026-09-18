@@ -21,6 +21,7 @@ while True:
         display(balance)
     elif choice == 2:
         balance = deposit(balance)
+        print(balance)
     elif choice == 3:
         balance = withdraw(balance)
 
