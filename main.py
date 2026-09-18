@@ -6,7 +6,7 @@ def deposit(balance):
 def withdraw(balance):
     amount = int(input("How much would you like to withdraw? "))
     return balance - amount
-    
+
 def display(balance):
     print(balance)
 
@@ -24,4 +24,5 @@ while True:
         print(balance)
     elif choice == 3:
         balance = withdraw(balance)
+        print(balance)
 
